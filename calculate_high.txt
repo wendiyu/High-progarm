@@ -9,7 +9,7 @@ intro_text = input("Enter the number of second that has passed.")
 GRAVITY = 9.81
 second = float(input("Enter seconds( Please put a positive number) Time = "))
 
-high = 100 - 0.5 * GRAVITY * second**2
-print(" The high is :  " + str((high)) + "m" )
+heigh = 100 - 0.5 * GRAVITY * second**2
+print(" The heigh is :  " + str((heigh)) + "m" )
 
 input ()
