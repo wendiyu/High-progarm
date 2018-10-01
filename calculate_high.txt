@@ -1,0 +1,15 @@
+#
+#Created by: Wendi Yu
+#Created on: Oct-01-2018
+#
+#Calculate the high
+intro_text = input("Enter the number of second that has passed.")
+
+# Set PI is a constant value
+GRAVITY = 9.81
+second = float(input("Enter seconds( Please put a positive number) Time = "))
+
+high = 100 - 0.5 * GRAVITY * second**2
+print(" The high is :  " + str((high)) + "m" )
+
+input ()
